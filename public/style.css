@@ -1,0 +1,106 @@
+body {
+    background-color: #FFE066;
+    font: 32px Arial Black;
+    color: #50514F;
+}
+
+.appStatus {
+    margin-top: 50px;
+    text-align: center;
+    white-space: pre-line;
+}
+
+.game {
+    text-align: center;
+    vertical-align: top;
+    width: 50%;
+    display: inline-block;
+}
+
+.message-list {
+    background-color: #FFE88F;
+    width: 50%;
+    height: 295px;
+    font: 16px Arial;
+    margin-top: 50px;
+    margin-left:auto;
+    margin-right:auto;
+    overflow: auto;
+    overflow-x: hidden;
+    text-align: left;
+}
+
+.message-form {
+    background-color: #E8CC5D;
+    width: 50%;
+    height: 31px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.message {
+    margin-left: 9px;
+    word-wrap: break-word;
+}
+
+.chat-input {
+    margin-top: 5px;
+    vertical-align: top;
+    width: 95%;
+}
+
+table {
+    border-collapse: collapse;
+    margin-top: 50px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+td {
+    width: 100px;
+    height: 100px;
+    line-height: 0;
+    border: 6px solid #50514F;
+}
+
+td:first-of-type {
+    border-left-color: transparent;
+    border-top-color: transparent;
+}
+
+td:nth-of-type(2) {
+    border-top-color: transparent;
+}
+
+td:nth-of-type(3) {
+    border-right-color: transparent;
+    border-top-color: transparent;
+}
+
+tr:nth-of-type(3) td {
+    border-bottom-color: transparent;
+}
+
+table td {padding: 0px; margin: 0px;}
+table {border-spacing: 0px;}
+
+.squareButton {
+    display: block;
+    width: 100%;
+    height: 100px;
+    color:transparent;
+    outline:none;
+    text-decoration: none;
+    cursor: pointer;
+    border:none;
+    background-color: transparent;
+}
+
+.square-appear {
+    opacity: 0.01;
+}
+
+.square-appear.square-appear-active {
+    opacity: 1;
+    transition: opacity 0.5s ease-in;
+}
